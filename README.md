@@ -2,6 +2,10 @@
 
 # Responsive HTML email signature(s)
 
+<p align="center">
+  <img src="docs/assets/hero.png" alt="email-signature preview" width="640">
+</p>
+
 [![npm](https://img.shields.io/npm/v/responsive-html-email-signature.svg)](https://www.npmjs.com/package/responsive-html-email-signature)
 [![license](https://img.shields.io/github/license/danmindru/responsive-html-email-signature.svg)](/LICENSE)
 [![test action status](https://github.com/danmindru/responsive-html-email-signature/workflows/Test%20template%20output/badge.svg)](https://github.com/danmindru/responsive-html-email-signature/actions)
