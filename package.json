@@ -1,11 +1,11 @@
 {
-  "name": "responsive-html-email-signature",
-  "version": "6.2.0",
-  "description": "Responsive template for emails & email signatures.",
+  "name": "email-signature",
+  "version": "1.0.0",
+  "description": "My responsive HTML email signature templates and the generator that builds them",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danmindru/responsive-html-email-signature.git"
+    "url": "git+https://github.com/gr8monk3ys/email-signature.git"
   },
   "keywords": [
     "responsive",
@@ -16,17 +16,15 @@
     "inline-styles",
     "watches-html"
   ],
-  "author": "Dan Mindru <mindrudan@gmail.com> (https://mindrudan.com/)",
+  "author": "Lorenzo Scaturchio (https://lscaturchio.xyz)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/danmindru/responsive-html-email-signature/issues"
+    "url": "https://github.com/gr8monk3ys/email-signature/issues"
   },
-  "homepage": "https://github.com/danmindru/responsive-html-email-signature#readme",
+  "homepage": "https://github.com/gr8monk3ys/email-signature#readme",
   "scripts": {
     "start": "./node_modules/.bin/gulp",
     "once": "./node_modules/.bin/gulp run-pipeline",
-    "deploy": "npm run test && cp -r dist demo && git push origin `git subtree split --prefix demo develop`:gh-pages --force",
-    "generate:conf": "sh generate-conf.json.sh $THEME $MOBILE_PHONE_COUNTRY_CODE $MOBILE_PHONE_NUMBER $EMAIL_ADDRESS",
     "test": "npm run once && npm run _test",
     "test:watch": "npm run once && npm run _test:watch",
     "format": "./node_modules/.bin/prettier {tasks,tests}/**/*.js gulpfile.js .eslintrc.js --write",
@@ -81,15 +79,10 @@
   "browserslist": [
     "last 5 versions"
   ],
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run test",
-      "pre-commit": "npm run lint && node ./node_modules/.bin/pretty-quick --staged --pattern ./**/*.js"
-    }
-  },
   "ava": {
     "helpers": [
       "**/util.js"
     ]
-  }
+  },
+  "private": true
 }
