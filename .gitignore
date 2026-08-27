@@ -5,3 +5,4 @@
 /dist
 IDEAS.md
 npm_debug.log
+.claude/settings.local.json
