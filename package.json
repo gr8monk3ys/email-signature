@@ -37,7 +37,7 @@
     "chalk": "^4.0.0",
     "cheerio": "^0.22.0",
     "del": "^6.0.0",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.1",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-david": "^1.0.1",
     "gulp-inline-css": "^4.0.0",
