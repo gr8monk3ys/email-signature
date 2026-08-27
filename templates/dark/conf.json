@@ -2,10 +2,10 @@
   "id": "dark",
   "signature": "Best regards,",
   "name": "Lorenzo Scaturchio",
-  "contactMain": "Call <a href='tel:5550100000'><span>(555) 010-0000</span></a> or email us at",
+  "contactMain": "Call <a href='tel:5550100000'><span>(555) 010-0000</span></a> or email me at",
   "contactMail": "lorenzosca7@gmail.com",
   "slogan": "Turning Data into Discovery, One Byte at a Time",
   "logoUrl": "/assets/dark.png",
   "logoAlt": "dark logo",
-  "website": "http://lscaturchio.xyz"
+  "website": "https://lscaturchio.xyz"
 }
